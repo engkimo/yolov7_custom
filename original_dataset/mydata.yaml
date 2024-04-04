@@ -1,0 +1,9 @@
+train: ./original_dataset/train/images/
+val: ./original_dataset/valid/images/
+# test: ./original_dataset/train/images/ 
+
+# number of classes
+nc: 4
+
+# class names
+names: ["trafficlight","stop", "speedlimit","crosswalk"]
